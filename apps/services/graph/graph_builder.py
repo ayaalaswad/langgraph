@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from langgraph.graph import StateGraph, START, END
 from .llm_node import llm_node, State
-from config.config import LLMConfig
+from swagger.config import LLMConfig
 from langchain_openai import ChatOpenAI
 
 def build_graph():

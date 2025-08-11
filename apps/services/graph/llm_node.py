@@ -7,7 +7,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from typing import TypedDict, Annotated
-from config.config import load_system_prompt
+from swagger.config import load_system_prompt
 
 class State(TypedDict):
     messages: Annotated[list, ...]
